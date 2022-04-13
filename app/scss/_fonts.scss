@@ -1,10 +1,82 @@
 // подключение шрифтов
 @font-face{
-  font-family: 'DMSans-Bold';
-  font-weight: 700;
+  font-family: 'Manrope-Regular';
+  font-weight: 400;
   font-style: normal;
-  src: local('DMSans-Bold'),
-      url('../fonts/DMSans-Bold.woff2') format('woff2'),
-      url('../fonts/DMSans-Bold.woff') format('woff');
+  src: local('Manrope-Regular'),
+      url('../fonts/Manrope-Regular.woff2') format('woff2');
   font-display: swap;
 }
+
+@font-face{
+  font-family: 'Manrope-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Manrope-Medium'),
+      url('../fonts/Manrope-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Manrope-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Manrope-Bold'),
+      url('../fonts/Manrope-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Manrope-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Manrope-SemiBold'),
+      url('../fonts/Manrope-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Manrope-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  src: local('Manrope-ExtraBold'),
+      url('../fonts/Manrope-ExtraBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Manrope-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Manrope-SemiBold'),
+      url('../fonts/Manrope-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Gilroy-Medium'),
+      url('../fonts/Gilroy-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Gilroy-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Gilroy-Bold'),
+      url('../fonts/Gilroy-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Gilroy-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Gilroy-SemiBold'),
+      url('../fonts/Gilroy-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+

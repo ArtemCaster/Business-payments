@@ -2,7 +2,6 @@
 @import 'vars';
 @import 'fonts';
 @import 'global.scss';
-@import 'media.scss';
 @import 'animate.scss';
 
 
@@ -12,7 +11,7 @@
 
 
 //Глобальные компоненты
-@import './components/header.scss';
+@import './components/navbar.scss';
 @import './components/footer.scss';
 
 
@@ -21,3 +20,4 @@
 
 
 
+@import 'media.scss';

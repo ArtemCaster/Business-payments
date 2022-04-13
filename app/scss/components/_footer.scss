@@ -1,3 +1,85 @@
-.footer{
-  color: green;
+.footer {
+  margin-bottom: 101px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 100px;
+  }
+
+  &__info {
+    max-width: 217px;
+
+    &-text {
+      margin: 18px 0 31px 0;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 15px;
+  }
+
+  &-list {
+    &__title {
+      @extend %man-700;
+      font-size: 21px;
+      line-height: 24px;
+      color: #181433;
+      margin-bottom: 24px;
+    }
+
+    &__item {
+      margin-bottom: 16px;
+
+      &-link{
+        color: #181433;
+        transition: all 0.5s;
+
+        &:hover{
+          color: #3734A9;
+        }
+      }
+    }
+  }
+
+  &__copy {
+    text-align: center;
+    @extend %gil-600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181433;
+  }
+}
+
+.mail-link,
+.tel-link {
+  color: #181433;
+  padding-left: 40px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.mail-link::before {
+  width: 22px;
+  height: 15px;
+  background-image: url(../images/icons/mail.svg);
+}
+
+.tel-link::before {
+  width: 23px;
+  height: 23px;
+  background-image: url(../images/icons/tel.svg);
 }
